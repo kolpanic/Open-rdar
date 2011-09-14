@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBEE49EB140D61E100A22213 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = CBEE49EA140D61E100A22213 /* Credits.html */; };
+		CBFF61BA140D3A6C00237E73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFF61B9140D3A6C00237E73 /* Cocoa.framework */; };
+		CBFF61C4140D3A6C00237E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBFF61C2140D3A6C00237E73 /* InfoPlist.strings */; };
+		CBFF61C6140D3A6C00237E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF61C5140D3A6C00237E73 /* main.m */; };
+		CBFF61CD140D3A6C00237E73 /* Open_rdarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF61CC140D3A6C00237E73 /* Open_rdarAppDelegate.m */; };
+		CBFF61D0140D3A6D00237E73 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFF61CE140D3A6D00237E73 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBEE49EA140D61E100A22213 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		CBFF61B5140D3A6C00237E73 /* Open rdar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open rdar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFF61B9140D3A6C00237E73 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBFF61BC140D3A6C00237E73 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CBFF61BD140D3A6C00237E73 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBFF61BE140D3A6C00237E73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBFF61C1140D3A6C00237E73 /* Open rdar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open rdar-Info.plist"; sourceTree = "<group>"; };
+		CBFF61C3140D3A6C00237E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBFF61C5140D3A6C00237E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBFF61C7140D3A6C00237E73 /* Open rdar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Open rdar-Prefix.pch"; sourceTree = "<group>"; };
+		CBFF61CB140D3A6C00237E73 /* Open_rdarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Open_rdarAppDelegate.h; sourceTree = "<group>"; };
+		CBFF61CC140D3A6C00237E73 /* Open_rdarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_rdarAppDelegate.m; sourceTree = "<group>"; };
+		CBFF61CF140D3A6D00237E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFF61B2140D3A6C00237E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFF61BA140D3A6C00237E73 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFF61AA140D3A6C00237E73 = {
+			isa = PBXGroup;
+			children = (
+				CBFF61BF140D3A6C00237E73 /* Open rdar */,
+				CBFF61B8140D3A6C00237E73 /* Frameworks */,
+				CBFF61B6140D3A6C00237E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFF61B6140D3A6C00237E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF61B5140D3A6C00237E73 /* Open rdar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFF61B8140D3A6C00237E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF61B9140D3A6C00237E73 /* Cocoa.framework */,
+				CBFF61BB140D3A6C00237E73 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBFF61BB140D3A6C00237E73 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF61BC140D3A6C00237E73 /* AppKit.framework */,
+				CBFF61BD140D3A6C00237E73 /* CoreData.framework */,
+				CBFF61BE140D3A6C00237E73 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CBFF61BF140D3A6C00237E73 /* Open rdar */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF61CB140D3A6C00237E73 /* Open_rdarAppDelegate.h */,
+				CBFF61CC140D3A6C00237E73 /* Open_rdarAppDelegate.m */,
+				CBFF61CE140D3A6D00237E73 /* MainMenu.xib */,
+				CBFF61C0140D3A6C00237E73 /* Supporting Files */,
+			);
+			path = "Open rdar";
+			sourceTree = "<group>";
+		};
+		CBFF61C0140D3A6C00237E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF61C1140D3A6C00237E73 /* Open rdar-Info.plist */,
+				CBFF61C2140D3A6C00237E73 /* InfoPlist.strings */,
+				CBFF61C5140D3A6C00237E73 /* main.m */,
+				CBFF61C7140D3A6C00237E73 /* Open rdar-Prefix.pch */,
+				CBEE49EA140D61E100A22213 /* Credits.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFF61B4140D3A6C00237E73 /* Open rdar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFF61D3140D3A6D00237E73 /* Build configuration list for PBXNativeTarget "Open rdar" */;
+			buildPhases = (
+				CBFF61B1140D3A6C00237E73 /* Sources */,
+				CBFF61B2140D3A6C00237E73 /* Frameworks */,
+				CBFF61B3140D3A6C00237E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open rdar";
+			productName = "Open rdar";
+			productReference = CBFF61B5140D3A6C00237E73 /* Open rdar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFF61AC140D3A6C00237E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Voodoo Ergonomics Inc.";
+			};
+			buildConfigurationList = CBFF61AF140D3A6C00237E73 /* Build configuration list for PBXProject "Open rdar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBFF61AA140D3A6C00237E73;
+			productRefGroup = CBFF61B6140D3A6C00237E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFF61B4140D3A6C00237E73 /* Open rdar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFF61B3140D3A6C00237E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFF61C4140D3A6C00237E73 /* InfoPlist.strings in Resources */,
+				CBFF61D0140D3A6D00237E73 /* MainMenu.xib in Resources */,
+				CBEE49EB140D61E100A22213 /* Credits.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFF61B1140D3A6C00237E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFF61C6140D3A6C00237E73 /* main.m in Sources */,
+				CBFF61CD140D3A6C00237E73 /* Open_rdarAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBFF61C2140D3A6C00237E73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFF61C3140D3A6C00237E73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBFF61CE140D3A6D00237E73 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFF61CF140D3A6D00237E73 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFF61D1140D3A6D00237E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBFF61D2140D3A6D00237E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBFF61D4140D3A6D00237E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open rdar/Open rdar-Prefix.pch";
+				INFOPLIST_FILE = "Open rdar/Open rdar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBFF61D5140D3A6D00237E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open rdar/Open rdar-Prefix.pch";
+				INFOPLIST_FILE = "Open rdar/Open rdar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFF61AF140D3A6C00237E73 /* Build configuration list for PBXProject "Open rdar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFF61D1140D3A6D00237E73 /* Debug */,
+				CBFF61D2140D3A6D00237E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFF61D3140D3A6D00237E73 /* Build configuration list for PBXNativeTarget "Open rdar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFF61D4140D3A6D00237E73 /* Debug */,
+				CBFF61D5140D3A6D00237E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFF61AC140D3A6C00237E73 /* Project object */;
+}
