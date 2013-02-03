@@ -50,7 +50,7 @@
 		radarNumber = [[[url resourceSpecifier] lastPathComponent] integerValue];
     
 	if (radarNumber > 0) {
-		NSURL *openRadarUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://openradar.appspot.com/rdar?number=%i", radarNumber]];
+		NSURL *openRadarUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://openradar.appspot.com/rdar?number=%li", (long)radarNumber]];
 		[[NSWorkspace sharedWorkspace] openURL:openRadarUrl];
         
 	}
